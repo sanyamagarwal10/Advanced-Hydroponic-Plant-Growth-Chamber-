@@ -40,31 +40,21 @@ Component	Description
 - JSON / AJAX (Real-time data fetch)
 - Excel/CSV Logs (Sensor data tracking)
 
-🌍 Sustainability Highlights
-♻️ Up to 90% less water usage compared to soil farming
+## 🌍 Sustainability Highlights
+- ♻️ Up to 90% less water usage compared to soil farming
+- ☀️ Solar panel integration supported (future enhancement)
+- 🐞 No pesticide usage due to controlled environment
+- 📈 Faster plant growth (30–50%) via optimized control
+- 🧪 Real-time analytics and trend logs
 
-☀️ Solar panel integration supported (future enhancement)
-
-🐞 No pesticide usage due to controlled environment
-
-📈 Faster plant growth (30–50%) via optimized control
-
-🧪 Real-time analytics and trend logs
-
-🧪 Testing Summary
-🌿 Plant: Tulsi (Ocimum tenuiflorum)
-
-📆 Duration: 35 Days
-
-🔍 Observations:
-
-30% water saved
-
-25% faster growth rate
-
-Stable environmental control
-
-📉 Comparative Analysis: Outperforms soil-based method in efficiency, control, and yield
+ ## 🧪 Testing Summary
+- 🌿 Plant: Tulsi (Ocimum tenuiflorum)
+- 📆 Duration: 35 Days
+- 🔍 Observations:
+   - 30% water saved
+   - 25% faster growth rate
+   - Stable environmental control
+- 📉 Comparative Analysis: Outperforms soil-based method in efficiency, control, and yield
 
 🧰 How to Use
 Connect ESP32 to your PC and upload the Arduino code.
