@@ -21,16 +21,16 @@ The project targets key global challenges such as water scarcity, climate unpred
   
 ## 🔧 Hardware Used
 Component	Description
-- ESP32	- IoT microcontroller with Wi-Fi
-- DHT22 Sensor -	Temperature and humidity monitoring
-- pH Sensor	- Monitors nutrient solution acidity
+- ESP32	--> IoT microcontroller with Wi-Fi
+- DHT22 Sensor -->	Temperature and humidity monitoring
+- pH Sensor	--> Monitors nutrient solution acidity
 - EC/TDS Sensor -	Measures nutrient concentration
-- Water Level Sensor - Ensures sufficient nutrient levels
-- LED Grow Lights	Simulates sunlight for photosynthesis
-- Relay Modules	Control actuators
-- Water Pumps	Circulate nutrient solution
-- Ventilation Fans	Regulate humidity and air quality
-- Power Supply	5V/12V regulated for all components
+- Water Level Sensor --> Ensures sufficient nutrient levels
+- LED Grow Lights -->	Simulates sunlight for photosynthesis
+- Relay Modules -->	Control actuators
+- Water Pumps -->	Circulate nutrient solution
+- Ventilation Fans -->	Regulate humidity and air quality
+- Power Supply -->	5V/12V regulated for all components
 
 ## 💻 Software & Tools
 - Arduino IDE (ESP32 Programming)
@@ -56,39 +56,25 @@ Component	Description
    - Stable environmental control
 - 📉 Comparative Analysis: Outperforms soil-based method in efficiency, control, and yield
 
-🧰 How to Use
-Connect ESP32 to your PC and upload the Arduino code.
+## 🧰 How to Use
+- Connect ESP32 to your PC and upload the Arduino code.
+- Access dashboard via device’s Wi-Fi hotspot (192.168.1.1).
+- Monitor and control:
+  - pH
+  - Temperature
+  - Light intensity
+  - Water level
+- Adjust settings or switch between Auto/Manual mode via web interface.
+- Optional: Connect to cloud for remote access and logs.
 
-Access dashboard via device’s Wi-Fi hotspot (192.168.1.1).
+## 🚧 Challenges Overcome
+- Signal interference resolved via logic converters and shielding
+- Power stability achieved with regulated 12V/5A supply
+- Web interface optimized for low memory footprint
+- Sensor calibration ensured accuracy (pH buffers, TDS standards)
 
-Monitor and control:
-
-pH
-
-Temperature
-
-Light intensity
-
-Water level
-
-Adjust settings or switch between Auto/Manual mode via web interface.
-
-Optional: Connect to cloud for remote access and logs.
-
-🚧 Challenges Overcome
-Signal interference resolved via logic converters and shielding
-
-Power stability achieved with regulated 12V/5A supply
-
-Web interface optimized for low memory footprint
-
-Sensor calibration ensured accuracy (pH buffers, TDS standards)
-
-📈 Future Enhancements
-🌞 Solar panel integration for off-grid operation
-
-🤖 AI/ML-based predictive control and anomaly detection
-
-🌿 Multi-crop profiles and intelligent scheduling
-
-📲 Cloud dashboard and mobile app version
+## 📈 Future Enhancements
+- 🌞 Solar panel integration for off-grid operation
+- 🤖 AI/ML-based predictive control and anomaly detection
+- 🌿 Multi-crop profiles and intelligent scheduling
+- 📲 Cloud dashboard and mobile app version
