@@ -62,6 +62,7 @@ Component	Description
 - Monitor and control:
   - pH
   - Temperature
+  - Humidity
   - Light intensity
   - Water level
 - Adjust settings or switch between Auto/Manual mode via web interface.
